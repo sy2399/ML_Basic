@@ -1,1 +1,4 @@
 *.p
+
+NLP_Kaggle_IMDB/*.p
+NLP_Kaggle_IMDB/data
