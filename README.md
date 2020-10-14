@@ -1,7 +1,10 @@
 
 # ML_Basic
+- TensorFollow
+- NLP
+- ML PerfectMaster
 
-## TensorFollow
+## 1. TensorFollow 
   Following Tensorflow
 
   1. Basic
