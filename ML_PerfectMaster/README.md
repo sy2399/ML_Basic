@@ -11,8 +11,7 @@
         - train_test_split
         - 교차 검증 (KFold, Stratified KFold)
           - ⭐️분류 모델은 Stratified KFold로!
-        - 교차 검증 성능 평가
-          - cross_val_score, GridSearchCV
+        - 교차 검증 성능 평가 (cross_val_score, GridSearchCV)
   3. Evaluation
   4. Classification
   5. Regression
