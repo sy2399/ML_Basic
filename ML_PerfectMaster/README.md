@@ -11,6 +11,7 @@
         - train_test_split
         - 교차 검증 (KFold, Stratified KFold)
           - ⭐️분류 모델은 Stratified KFold로!
+          - ⭐️불균형한 분포를 가진 레이블 데이터 집합을 위한 K-fold 
         - 교차 검증 성능 평가 (cross_val_score, GridSearchCV)
   3. Evaluation
   4. Classification
