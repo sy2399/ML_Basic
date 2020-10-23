@@ -25,6 +25,7 @@
     - Accuracy, Confusion Matrix, Precision, Recall, ROC Curve
       - ⭐️ 불균형한 레이블 클래스를 가지는 이진 분류 모델에서는 많은 데이터 중에서 중점적으로 찾아야 하는 매우 적은 수의 결괏값에 Positive를 설정해 1값을 부여함!
       - ex) 스팸메일 : 스팸인 경우 1, 정상 메일인 경우 0
+      - 정밀도 또는 재현율이 특별히 강조돼야 할 경우, Binarizer를 이용하여 분류의 결정 임계값(Threshold)을 조정해 정밀도 또는 재현율의 수치를 높일 수 있음
       
   4. Classification
   5. Regression
