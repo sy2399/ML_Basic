@@ -7,6 +7,8 @@
   2. Scikit learn
       - scikitlearn Iris Data
       - scikitlearn API & Datasets
+        - ⭐️ Estimator (fit, predict) > Classifier, Regressor
+          - scikitlearn 에선 Estimator 라는 부모 클래스에서 classifier, regressor 를 만들기 때문에 BaseEstimator 라는 클래스를 상속받아 dummyclassifier, dummyregressor 만들 수 있음
       - scikitlearn model selection
         - train_test_split
         - 교차 검증 (KFold, Stratified KFold)
