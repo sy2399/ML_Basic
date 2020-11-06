@@ -42,7 +42,7 @@
 
     - Boosting: 여러 개의 학습기를 `순차`적으로 학습 & 예측하여 잘못 예측한 데이터에 가중치 부여를 통해 오류를 개선해 나가면서 학습
       - ex. GradientBoosting, XGBoost, LightGBM
-      
+  - Stacking (CV 기반 Stacking)
       
   
   ### 5. Regression
