@@ -8,8 +8,8 @@
   ### 2. Scikit learn
   - scikitlearn Iris Data
   - scikitlearn API & Datasets
-    - **⭐️ Estimator (fit, predict) > Classifier, Regressor**
-      - scikitlearn 에선 Estimator 라는 부모 클래스에서 classifier, regressor 를 만들기 때문에 BaseEstimator 라는 클래스를 상속받아 dummyclassifier, dummyregressor 만들 수 있음
+    - **⭐️ `Estimator (fit, predict)` > Classifier, Regressor**
+      - scikitlearn 에선 Estimator 라는 부모 클래스에서 classifier, regressor 를 만들기 때문에 `BaseEstimator` 라는 클래스를 상속받아 dummyclassifier, dummyregressor 만들 수 있음
   - scikitlearn model selection
     - train_test_split
     - 교차 검증 (KFold, Stratified KFold)
@@ -27,7 +27,7 @@
   - Accuracy, Confusion Matrix, Precision, Recall, ROC Curve
     - **⭐️ 불균형한 레이블 클래스를 가지는 이진 분류 모델에서는 많은 데이터 중에서 중점적으로 찾아야 하는 매우 적은 수의 결괏값에 Positive를 설정해 1값을 부여함!**
     - ex) 스팸메일 : 스팸인 경우 1, 정상 메일인 경우 0
-    - 정밀도 또는 재현율이 특별히 강조돼야 할 경우, Binarizer를 이용하여 분류의 결정 임계값(Threshold)을 조정해 정밀도 또는 재현율의 수치를 높일 수 있음
+    - 정밀도 또는 재현율이 특별히 강조돼야 할 경우, `Binarizer`를 이용하여 분류의 결정 임계값(Threshold)을 조정해 정밀도 또는 재현율의 수치를 높일 수 있음
       
   ### 4. Classification
   - DecisionTree
@@ -40,11 +40,11 @@
         - n_estinators : weak learner의 개수
         - max_features : default = `sqrt(전체 feature 수)`
 
-    - Boosting: 여러 개의 학습기를 `순차`적으로 학습 & 예측하여 잘못 예측한 데이터에 가중치 부여를 통해 오류를 개선해 나가면서 학습
-      - GradientBoosting : 경사하강법을 이용해서 가중치 업데이트 (⭐️learning_rate)
+    - Boosting: 여러 개의 학습기를 "순차"적으로 학습 & 예측하여 잘못 예측한 데이터에 가중치 부여를 통해 오류를 개선해 나가면서 학습
+      - GradientBoosting : 경사하강법을 이용해서 가중치 업데이트 (⭐️`learning_rate`)
       - XGBoost (eXtra Gradient Boost) : Regularization, Tree Pruning, Early Stopping, Cross validation, Null 값 처리 등 지원
-      - LightGBM : Leaf Wise (계속 같은 방향성을 갖고 Leaf node 를 늘려감)
-  - Stacking (CV 기반 Stacking)
+      - LightGBM : `Leaf Wise` (계속 같은 방향성을 갖고 Leaf node 를 늘려감)
+  - Stacking (CV 기반 Stacking): 앙상블과 유사하나, 기반 모델들이 예측한 값들을 stacking 형태로 만들어 "메타 모델"이 이를 학습하고 예측하는 모델
       
   
   ### 5. Regression
