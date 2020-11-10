@@ -45,6 +45,11 @@
       - XGBoost (eXtra Gradient Boost) : Regularization, Tree Pruning, Early Stopping, Cross validation, Null 값 처리 등 지원
       - LightGBM : `Leaf Wise` (계속 같은 방향성을 갖고 Leaf node 를 늘려감)
   - Stacking (CV 기반 Stacking): 앙상블과 유사하나, 기반 모델들이 예측한 값들을 stacking 형태로 만들어 "메타 모델"이 이를 학습하고 예측하는 모델
+  
+  cf. Feature Selection
+  - Scikit Learn
+    - `RFE`
+    - `SELECTFROMMODEL`
       
   
   ### 5. Regression
