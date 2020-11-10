@@ -47,9 +47,9 @@
   - Stacking (CV 기반 Stacking): 앙상블과 유사하나, 기반 모델들이 예측한 값들을 stacking 형태로 만들어 "메타 모델"이 이를 학습하고 예측하는 모델
   
   cf. Feature Selection
-  - Scikit Learn
-    - `RFE` (Recursive Feature Elimination) : from sklearn.feature_selection import RFECV, RFE
-    - `SELECTFROMMODEL` : from sklearn.feature_selection import SelectFromModel
+  - `RFE` (Recursive Feature Elimination) 
+  - `SelectFromModel` 
+  - **⭐️`Permutation importance`**
 
       
   
