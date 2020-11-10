@@ -35,9 +35,9 @@
     - max_features : default = none(전체 feature 수)
   - Ensemble : 여러개의 weak learner 를 결합
     - Voting : 서로 다른 알고리즘의 여러 개의 분류기(weak learner)를 결합
-    - Bagging : 동일한 여러개의 분류기(weak learner)를 결합 
+    - Bagging (Bootstraping Aggregating) : 동일한 여러개의 분류기(weak learner)를 결합 
       - ex. RandomForest (여러 개의 Decision Tree 결합)
-        - n_estinators : weak learner의 개수
+        - `n_estinators` : weak learner의 개수
         - max_features : default = `sqrt(전체 feature 수)`
 
     - Boosting: 여러 개의 학습기를 "순차"적으로 학습 & 예측하여 잘못 예측한 데이터에 가중치 부여를 통해 오류를 개선해 나가면서 학습
