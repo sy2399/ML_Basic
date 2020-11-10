@@ -41,7 +41,9 @@
         - max_features : default = `sqrt(전체 feature 수)`
 
     - Boosting: 여러 개의 학습기를 `순차`적으로 학습 & 예측하여 잘못 예측한 데이터에 가중치 부여를 통해 오류를 개선해 나가면서 학습
-      - ex. GradientBoosting, XGBoost, LightGBM
+      - GradientBoosting : 경사하강법을 이용해서 가중치 업데이트 (⭐️learning_rate)
+      - XGBoost (eXtra Gradient Boost) : Regularization, Tree Pruning, Early Stopping, Cross validation, Null 값 처리 등 지원
+      - LightGBM : Leaf Wise (계속 같은 방향성을 갖고 Leaf node 를 늘려감)
   - Stacking (CV 기반 Stacking)
       
   
