@@ -48,8 +48,9 @@
   
   cf. Feature Selection
   - Scikit Learn
-    - `RFE`
-    - `SELECTFROMMODEL`
+    - `RFE` (Recursive Feature Elimination) : from sklearn.feature_selection import RFECV, RFE
+    - `SELECTFROMMODEL` : from sklearn.feature_selection import SelectFromModel
+
       
   
   ### 5. Regression
